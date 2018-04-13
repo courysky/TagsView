@@ -2,7 +2,9 @@
 TagsView is a ViewGroup, which displays items in a two-dimensional, like GridView, but the length of item is uncertain.
 
 ##Demo
+
 Screenshot
+
 
 <img src="TagsViewDemo_en_1.jpg" width="320px"/>
 
@@ -31,6 +33,7 @@ dependencies {
 ```
 
 ###Java Code
+
 Define TagsView in Activity or Fragment:
 
     TagsView mMyTagsView = (TagsView) findViewById(R.id.tagsView_all);
@@ -38,7 +41,7 @@ Define TagsView in Activity or Fragment:
     mMyTagsView.setAdapter(new BaseAdapter(){});
 
 
-###[中文介绍](README_zh.md)
+[中文介绍](README_zh.md)
 
 
 #License
